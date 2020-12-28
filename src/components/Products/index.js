@@ -2,7 +2,7 @@ import React from 'react';
 import {
   ProductsContainer,
   ProductWrapper,
-  ProductHeading,
+  ProductsHeading,
   ProductTitle,
   ProductDesc,
   ProductPrice,
@@ -15,7 +15,7 @@ import {
 const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
-      <ProductHeading>{heading}</ProductHeading>
+      <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
         {data.map((product, idx) => {
           return (
