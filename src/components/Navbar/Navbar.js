@@ -1,10 +1,16 @@
 import React from 'react';
-import { Nav } from './NavbarElements';
+import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
 
 const Navbar = () => {
   return (
     <>
-      <Nav>Nav</Nav>
+      <Nav>
+        <NavLink to='/'>Pizza</NavLink>
+        <NavIcon>
+          <p>Menu</p>
+          <Bars />
+        </NavIcon>
+      </Nav>
     </>
   );
 };
