@@ -23,7 +23,7 @@ const Banner = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <BannerContent>
         <BannerItems>
-          <BannerH1>Greatest Pizza Ever</BannerH1>
+          <BannerH1>Greatest Burger Ever</BannerH1>
           <BannerP>Ready in 60 seconds</BannerP>
           <BannerBtn>Place Order</BannerBtn>
         </BannerItems>

@@ -1,35 +1,35 @@
-import product1 from '../../images/pizza-1.jpg';
-import product2 from '../../images/pizza-2.jpg';
-import product3 from '../../images/pizza-3.jpg';
+import product1 from '../../images/beef-burger.jpg';
+import product2 from '../../images/impossible-burger.jpg';
+import product3 from '../../images/chicken-burger.jpg';
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
 export const productData = [
   {
     img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
+    alt: 'Beef burger',
+    name: 'Supreme Burger',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatos, olives and pesto',
+      'Supreme beef patty, special sauce, spinach, avocado, bacon, onions, double cheese',
     price: '$10.99',
     button: 'Add to Cart',
   },
   {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Pizza',
+    alt: 'Vegetarian Burger',
+    name: 'Impossible burger',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatos, olives and pesto',
+      'Package impossible patty, sriracha, pepperonchini, red onions, pickles, cheese',
     price: '$15.99',
     button: 'Add to Cart',
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'SF Pizza',
+    alt: 'Chicken burger',
+    name: 'SF Chicken Burger',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatos, olives and pesto',
-    price: '$19.99',
+      'Chicken breast, special sauce, basil, pickles, tomatoes, olives and pesto,',
+    price: '$10.99',
     button: 'Add to Cart',
   },
 ];

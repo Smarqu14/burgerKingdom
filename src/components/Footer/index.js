@@ -22,7 +22,7 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Pizza</SocialLogo>
+            <SocialLogo to='/'>BurgerKingdom</SocialLogo>
             <SocialIcons>
               <SocialIconLink
                 href='/'
